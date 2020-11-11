@@ -1,7 +1,7 @@
 language: java
-branches:
+branches: 
   only:
-    - develop
+    - developer
     - /^release-[0-999].[0-999]$/
     - master
 notifications:
