@@ -12,4 +12,4 @@ script:
    #Commentario
     - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
     #SONARCLOUD
-    - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=antgonto  -Dsonar.login=$SONAR
+    - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=antgonto -Dsonar.login=$SONAR
