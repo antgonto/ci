@@ -9,7 +9,7 @@ notifications:
     recipients:
       - antonio@gonzalez.cr
 script:
-   #Commentario
+   #Commentario sobre segundo intento
     - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
     #SONARCLOUD
     - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=antgonto -Dsonar.login=$SONAR
