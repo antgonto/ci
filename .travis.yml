@@ -1,5 +1,5 @@
 language: java
-branches: 
+branches:
   only:
     - developer
     - /^release-[0-999].[0-999]$/
