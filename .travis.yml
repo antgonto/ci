@@ -1,6 +1,7 @@
 language: java
 branches: 
   only:
+    - developer
     - /^release-[0-999].[0-999]$/
     - master
 notifications:
@@ -15,7 +16,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 3ee5d341-41e4-4c84-afbb-dcc81e384974
+    secure: $HEROKU
   on:
     branch: master
   app: ecosystem-demo-antonio
