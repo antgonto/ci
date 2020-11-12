@@ -18,7 +18,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU
+    secure: 3ee5d341-41e4-4c84-afbb-dcc81e384974
   on:
     branch: master
   app: ecosystem-demo-antonio
